@@ -1,0 +1,28 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    background-image: url('../pictures/plane.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Numans', sans-serif;
+    color: #ffffff;
+}
+
+.container{
+    align-content: center;
+}
+
+.card{
+    background-color: rgba(0,0,0,0.4) !important;
+}
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    background-color: rgba(0,0,0,0.2) !important;
+    color: white !important;
+}
+.links{
+    color: white;
+}
