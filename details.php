@@ -6,7 +6,7 @@
         echo "Your Session id is " . session_id();
     }
     else {
-        header('Location: login.php');
+        header('Location: login/login.php');
         //echo "You are not signed in";
     }
 ?>
