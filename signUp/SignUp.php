@@ -86,7 +86,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <header class="card-header">
-                        <a href="../login.php" class="float-right btn btn-outline-light mt-1">Log in</a>
+                        <a href="../login/login.php" class="float-right btn btn-outline-light mt-1">Log in</a>
                         <h4 class="card-title mt-2">Sign up</h4>
                     </header>
                     <div class="border-top card-body">
@@ -156,7 +156,7 @@
                             <small class="form-text" style="color: #bbc0c4">By clicking the 'Sign Up' button, you confirm that you accept our <br> Terms of use and Privacy Policy.</small>
                         </form>
                     </div> <!-- card-body end .// -->
-                    <div class="border-top card-body text-center">Have an account? <a href="../login.php">Log In</a></div>
+                    <div class="border-top card-body text-center">Have an account? <a href="../login/login.php">Log In</a></div>
                 </div> <!-- card.// -->
             </div> <!-- col.//-->
         </div> <!-- row.//-->

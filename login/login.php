@@ -1,7 +1,7 @@
 <?php
 //session_set_cookie_params('3600');
 session_start();
-require ('connection.php');
+require ('../connection.php');
 if(isset($_POST['submit'])){
     $username = $_POST['userName'];
     $password = $_POST['password'];
@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
             //echo "Session id ";
             //echo session_id().'<br>';
             //Print_r ($_SESSION);
-            header('Location: details.php');
+            header('Location: ../details.php');
         }
     } else {
         //echo "Invalid username or Password";
@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
     }
 }
 else if (isset($_SESSION["loginUser"])){
-    header('Location: details.php');
+    header('Location: ../details.php');
     //echo "Your Session id is " . session_id();
 }
 ?>
@@ -94,7 +94,7 @@ else if (isset($_SESSION["loginUser"])){
                     <span id="invalidUserNameOrPassword"></span>
                 </div>
                 <div class="d-flex justify-content-center links">
-                    Don't have an account?<a href="signUp/SignUp.php" onclick="my()">Sign Up</a>
+                    Don't have an account?<a href="../signUp/SignUp.php" onclick="my()">Sign Up</a>
                 </div>
                 <div class="d-flex justify-content-center">
                     <a href="#">Forgot your password?</a>
